@@ -1,0 +1,487 @@
+body{
+ background-color: #4a4c6a;
+   font-variant: small-caps;
+    background-image: url("../img/%D1%84%D0%BE%D0%BD.jpg");
+    background-repeat: no-repeat;
+     width: 100%;
+    height: 100%;
+    background-size:cover;
+    background-blend-mode:luminosity;
+  background-attachment:fixed;
+margin-top: 0px;
+   
+}
+.hat{
+   position:fixed;
+    width:  110%;
+    right: 0vh;
+    left: 0vh;
+}
+h1{
+  font-family: 'Rubik One', sans-serif;
+  font-size: 50px;
+  text-transform: uppercase;
+  text-shadow: 4px 4px 5px ;
+  background: #2E2F45;
+  background-image: linear-gradient(#000 20%, #7f7f7f 90%, #ffffff);
+  background-origin:content-box;
+  display: table;
+  margin: 20px auto;
+  color: white;
+  border-radius: 5px;
+  mix-blend-mode: multiply;
+  padding: 10px 15px;
+  display: grid;
+
+
+}
+.name{
+    background-color: #7f7f7f;
+    background-image: linear-gradient(#2E2F45 20%, #fff 90%, gray);
+    margin: 0px auto;
+    display:grid;
+    margin-right: 20px;
+}
+
+nav{
+    background-color: #2E2F45;
+    text-decoration: none;
+    display: grid;
+    margin-right: 21px;
+  
+    
+}
+li{
+    color:gray;
+    font-size: 20px;
+    font-family: 'Century Gothic';
+    padding: 20px 0;
+    margin: 0 80px;
+    display: inline-block;
+    transition: 0.6s;
+    text-decoration: none;
+    background-color:#2E2F45;
+}
+li:hover{
+    color:#fff;
+    text-decoration: none;
+}
+.menu{
+    width: 200px;
+    background-color:#2E2F45;
+    margin-right: 0px;
+    position:fixed;
+    height: 100vh;
+    right: 0px;
+    display:table-footer-group;
+ 
+}
+main{
+    top:200px;
+    margin:0px 60px;
+}
+
+
+.icon{
+    height: 200px;
+    width: 200px;
+    margin: auto 90px;
+}
+
+article{
+     background-image: linear-gradient(#2E2F45 10%, #7f7f7f 90%);
+    background-color:gray;
+    margin-right: 170px;
+    font-family: 'Arial';
+    font-size: 20px;
+    padding: 0px 20px;
+    text-align:justify;
+}
+.Krita{
+  
+    display:inline-flex;
+	color: white; 												
+    text-shadow: 0px 3px 0px #b2a98f,
+             	 0px 14px 10px rgba(0,0,0,0.15),
+             	 0px 24px 2px rgba(0,0,0,0.1),
+            	 0px 34px 30px rgba(0,0,0,0.1);	
+  font-size: 40px;
+    margin-top: 200px;
+  
+}
+
+.krita2{
+    width:700px;
+    height: auto;
+    display:inline-block;
+   transition: 0.3s;
+}
+.krita2:active{
+
+    transition: 0.4s;
+   transform: translateX(15em) scale(2, 2);
+}
+
+.krita3{
+     display:inline-block;
+     width: 500px;
+    font-size: 25px;
+    vertical-align:top;
+    font-style: italic;
+}
+.Gimp{
+      display:inline-flex;
+    color: white; 												
+    text-shadow: 0px 3px 0px #b2a98f,
+             	 0px 14px 10px rgba(0,0,0,0.15),
+             	 0px 24px 2px rgba(0,0,0,0.1),
+            	 0px 34px 30px rgba(0,0,0,0.1);	
+  font-size: 40px;
+     margin-top: 10px;
+    
+}
+.gimpall{
+    margin-top: 20px;
+}
+.gimp2{
+      width:700px;
+    height: auto;
+    display:inline-block;
+     transition: 0.4s;
+}
+.gimp2:active{
+
+    transition: 0.4s;
+   transform: translateX(-10em) scale(2, 2);
+}
+
+.gimp3{
+       display:inline-block;
+    width: 500px;
+    font-size: 25px;
+    vertical-align:top;
+    font-style: italic;
+}
+h2{
+    color: white;
+
+}
+.saiall{
+     margin-top: 20px;
+}
+.Sai{
+      display:inline-flex;
+    color: white; 												
+    text-shadow: 0px 3px 0px #b2a98f,
+             	 0px 14px 10px rgba(0,0,0,0.15),
+             	 0px 24px 2px rgba(0,0,0,0.1),
+            	 0px 34px 30px rgba(0,0,0,0.1);	
+  font-size: 40px;
+     margin-top: 10px;
+}
+.sai2{
+      width:700px;
+    height: auto;
+    display:inline-block;
+     transition: 0.4s;
+}
+ .sai2:active{
+
+    transition: 0.4s;
+   transform: translateX(15em) scale(2, 2);
+}
+
+.sai3{
+      display:inline-block;
+    width: 500px;
+    font-size: 25px;
+    vertical-align:top;
+    font-style: italic;
+}
+.APall{
+      margin-top: 20px;
+    margin-bottom: 20px;
+}
+.AP{
+     display:inline-flex;
+    color: white; 												
+    text-shadow: 0px 3px 0px #b2a98f,
+             	 0px 14px 10px rgba(0,0,0,0.15),
+             	 0px 24px 2px rgba(0,0,0,0.1),
+            	 0px 34px 30px rgba(0,0,0,0.1);	
+  font-size: 40px;
+     margin-top: 10px;
+}
+.AP2{
+     width:700px;
+    height: auto;
+    display:inline-block;
+     transition: 0.4s;
+}
+.AP2:active{
+
+    transition: 0.4s;
+   transform: translateX(-10em) translateY(-2em)scale(2, 2);
+}
+.AP3{
+      display:inline-block;
+    width: 500px;
+    font-size: 25px;
+    vertical-align:top;
+    font-style: italic;
+}
+a{
+     text-decoration: none;
+    color:white;
+     font-size: 20px;
+    font-family: 'Century Gothic';
+          transition: 0.6s;
+}
+a:hover{
+    color: black;
+      transition: 0.6s;
+}
+
+.main{
+    background-color:#2E2F45;
+    padding: 10px 60px;
+    margin-right: 0px;
+   margin-left: -10px;
+    margin-bottom: -12px;
+    color: gray;
+    
+}
+
+button{
+bottom: 30px;
+right: 60px;
+    position: fixed;
+    border: 2px solid gray;
+    background-color: gray;
+    font-size: 20px;
+    font-family: 'Century Gothic';
+    border-radius: 5px;
+    transition: 0.6s;
+    color:#2E2F45;
+}
+buttom:active{
+    color:white;
+    transition: 0.6s;
+}
+@media(max-width:1024px) and (min-width:843px){
+    .menu{
+      
+    }
+    .icon{
+        width: 200px;
+        height: auto;
+    }
+     article{
+        padding-left: 20px;
+    }
+    .krita3{
+        width: auto;
+        font-size: 25px;
+    }
+    .Krita{
+        font-size: 40px;
+          transition: 0.3s;  
+    }
+    
+    .gimp3{
+         width: auto;
+          font-size: 25px;
+    }
+    .Gimp{
+         font-size: 40px;
+          transition: 0.3s;
+    }
+    .sai3{
+         width: auto;
+          font-size: 25px;
+    }
+    .Sai{
+         font-size: 40px;
+          transition: 0.3s;
+    }
+    .AP3{
+         width: auto;
+          font-size: 25px;
+    }
+    .AP{
+         font-size: 40px;
+          transition: 0.3s;
+    }
+}
+@media(max-width:842px) and (min-width:662px){
+   
+      .icon{
+        width: 175px;
+        height: auto;
+    }
+    article{
+        padding-left: 15px;
+        font-size: 19px;
+    }
+    .menu{
+     
+    }
+    .krita3{
+        width: auto;
+          font-size: 20px;
+    }
+    .krita2{
+        width: 400px;
+        height: auto;
+        transform: 0.4s;
+    }
+    .krita2:active{
+    transform: translateX(80px) scale(1.5,1.5);
+    }
+      .Krita{
+        font-size: 30px;
+          transition: 0.3s;
+       margin-top: 300px;
+    }
+    main{
+        margin-left: 15px;
+    }
+    
+    .gimp3{
+         width: auto;
+          font-size: 23px;
+    }
+    .Gimp{
+         font-size: 30px;
+          transition: 0.3s;
+         display: grid;
+    }
+     .gimp2{
+        width: 400px;
+        height: auto;
+    }
+    .gimp2:active{
+    transform: translateX(80px) scale(1.5,1.5);
+    }
+    
+    .sai3{
+         width: auto;
+          font-size: 23px;
+    }
+     .sai2{
+        width: 400px;
+        height: auto;
+    }
+    .Sai{
+         font-size: 30px;
+          transition: 0.3s;
+         display: grid;
+    }
+    .sai2:active{
+    transform: translateX(80px) scale(1.5,1.5);
+    }
+    .AP3{
+         width: auto;
+          font-size: 23px;
+    }
+     .AP2{
+        width: 400px;
+        height: auto;
+    }
+    .AP2:active{
+    transform: translateX(80px) scale(1.5,1.5);
+    }
+    .AP{
+         font-size: 20px;
+          transition: 0.3s;
+             display: inline-block;
+    }
+}
+@media(max-width:661px) and (min-width:480px){
+      .icon{
+        width: 120px;
+        height: auto;
+        margin: auto;
+    }
+     article{
+        padding-left: 10px;
+          font-size: 17px;
+    }
+     main{
+        margin-left: 10px;
+    }
+    .krita3{
+        width: auto;
+          font-size: 18px;
+    }
+    .krita2{
+        width: 200px;
+        height: auto;
+    }
+    .menu{
+       
+    }
+    .krita2:active{
+    transform: translateX(90px) scale(2,2);
+    }
+    .Krita{
+        font-size: 20px;
+          transition: 0.3s;
+       margin-top: 350px;
+    }
+    
+    .gimp3{
+         width: auto;
+         font-size: 20px;
+    }
+     .gimp2{
+        width: 200px;
+        height: auto;
+    }
+    .gimp2:active{
+    transform: translateX(90px) scale(2,2);
+    }
+     .Gimp{
+         font-size: 20px;
+          transition: 0.3s;
+         display: grid;
+    }
+    .sai3{
+         width: auto;
+         font-size: 20px;
+    }
+    .sai2{
+        width: 200px;
+        height: auto;
+    }
+    .sai2:active{
+    transform: translateX(90px) scale(1.5,1.5);
+    }
+    .Sai{
+         font-size: 16px;
+          transition: 0.3s;
+         display: grid;
+        
+    }
+    .AP3{
+         width: auto;
+         font-size: 20px;
+    }
+    .AP2{
+        width: 200px;
+        height: auto;
+    }
+    .AP2:active{
+    transform: translateX(90px) scale(2,2);
+    }
+    .AP{
+      
+         font-size: 15px;
+        text-align-last: center;
+        transition: 0.3s;
+        display: grid;
+        text-align-last: left;
+       
+    }
+}
+
